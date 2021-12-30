@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: radial-gradient(circle ,rgb(70, 131, 180) ,rgb(55, 85, 114) ,rgb(16, 45, 75));
+}
+#main_body{
+    display: flex;
+    justify-content: center;
+}
+#game_window{
+    border: 3px solid;
+    display: flex;
+    margin-top: 100px;
+    border-radius: 12px;
+}
+#score_board{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    top: 20px;
+    height: 60px;
+    width: 320px;
+    border: 2px solid;
+    border-radius: 12px;
+    background-color: black;
+    color:yellow;
+}
+#start{
+    position: absolute;
+    top: 450px;
+    height: 33px;
+    width: 100px;
+}
+#tap{
+    position: absolute;
+    top: 250px;
+    height: 100px;
+    width: 116px;
+}
+#play_again{
+    position: absolute;
+    top: 345px;
+    height: 38px;
+    width: 132px;
+    display: none;
+}
+#screen{
+    display: flex;
+    position: absolute;
+    height: 95%;
+    width: 97%;
+}

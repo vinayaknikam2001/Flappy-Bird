@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="flappy.css">
+    
+</head>
+<body> 
+
+    <div id="screen" ontouchstart="flap()" onclick="flap()"></div>
+    <div id="main_body">
+        <div id="score_board">Score : 0</div>
+        <canvas id='game_window' height="480px"  width="320px"></canvas>
+        <div id="start" onclick="on_state()" ontouchstart="on_state()"></div>
+        <div id="tap" onclick="on_state()" ontouchstart="on_state()"></div>
+        <div id="play_again" onclick="start_state()" ontouchstart="start_state()"></div>
+    </div>
+    
+    
+
+    <script defer src="flappy.js"></script>
+</body>
+</html>
