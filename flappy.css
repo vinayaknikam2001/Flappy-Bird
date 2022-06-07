@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: radial-gradient(circle ,rgb(70, 131, 180) ,rgb(55, 85, 114) ,rgb(16, 45, 75));
+    background-image: radial-gradient(circle ,rgb(123, 110, 179) ,rgb(33, 62, 143) ,rgb(11, 4, 71));
 }
 #main_body{
     display: flex;
