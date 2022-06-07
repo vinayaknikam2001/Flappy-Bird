@@ -324,3 +324,4 @@ function flap() {
     fly_sound.play();
     bird_speed = fly;
 }
+//This  function is error this is causing to call event listner unnecessarily
